@@ -1,105 +1,28 @@
+*{margin: 0;}
+.menu-img{width: 100%;
+    height: 450px;
 
-/* Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
 }
 
-/* Header */
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 10%;
-  background-color: #222;
-  color: #fff;
-}
+.about{font-size: 30px;}
+.our{font-size: 18px;}
+.out2{font-size: 18px;}
+.offer{font-size: 39px; color:red; font-weight:700;line-height:50px;}
+.services{font-size: 23px;}
+.more-btn{margin-top: 110px; text-align: center;}
+.read-more{width: 170px;height: 50px;font-size: 17px; background-color: red; font-weight: 500; border:none;}
+.offer2{font-size:16px; margin-bottom: 40px;}
+.projt-1{font-size: 20px;}
+.projt-2{font-size: 46px; color: red; font-weight: 600;}
+.projt-3{font-size: 15px; line-height: 28px;}
+.row-bg{background-color: aliceblue;}
+.service-sect{margin-top: 45px; margin-left: 120px;}
+.pro-img{width: 100%; height: 70%;}
+.client-sec{text-align: center;}
+.cl-sec1{font-size: 22px;}
+.cl-sec2{font-size: 45px; color:red; font-weight: 600; line-height:52px;}
+.img8{margin-top:35px;}
+.img9{margin-top: 35px;}
+.cl-sec-img{background-color: aliceblue;}
 
-.logo {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.nav-links a {
-  color: #fff;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.nav-links a:hover {
-  color: #00bcd4;
-}
-
-.btn {
-  background-color: #00bcd4;
-  color: #fff;
-  padding: 10px 20px;
-  border-radius: 25px;
-  text-decoration: none;
-  transition: 0.3s;
-}
-
-.btn:hover {
-  background-color: #0097a7;
-}
-
-/* Hero Section */
-.hero {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-              url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1500&q=80') center/cover;
-  color: #fff;
-  height: 90vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-}
-
-.hero-content {
-  max-width: 600px;
-}
-
-.hero h1 {
-  font-size: 3rem;
-  margin-bottom: 15px;
-}
-
-.hero p {
-  font-size: 1.2rem;
-  margin-bottom: 25px;
-}
-
-/* Features Section */
-.features {
-  display: flex;
-  justify-content: space-around;
-  padding: 60px 10%;
-  background: #f9f9f9;
-}
-
-.feature {
-  text-align: center;
-  max-width: 250px;
-}
-
-.feature h2 {
-  color: #00bcd4;
-  margin-bottom: 10px;
-}
-
-/* Footer */
-footer {
-  background-color: #222;
-  color: #ccc;
-  text-align: center;
-  padding: 20px;
-}
 
